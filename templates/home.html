@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+    <div class="container">
+    <h1> Simple Projects in Machine Learing </h1>
+    <p>
+        Machine Learning is divided into three main categories.
+        Each Category can be used based on given data.
+        In our approach to learn Machine learning we provide numerous examples related to
+        each Apprach.
+    </p>
+    </div>
+
+<form action="/save" method="post">
+    <button type="submit" class="btn btn-success">Supervised Learning</button>
+    <button type="submit" class="btn btn-primary">UnSupervised Learning</button>
+    <button type="submit" class="btn btn-warning">Reinforcement Learning</button>
+</form>
+
+{% endblock %}
