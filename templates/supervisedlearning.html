@@ -1,10 +1,20 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>SuperVised Learning</title>
-</head>
-<body>
+{% extends 'base.html' %}
 
-</body>
-</html>
+{% block content %}
+
+    <div class="container">
+    <h1> Simple Projects in Machine Learing </h1>
+    <p>
+        Supervised Learning is an approach in Machine Learning which operates with labels of inputs
+        are defined. In the project we use iris dataset for various issues.
+        You can select what type of measures you want and we will show you how it works.
+    </p>
+    </div>
+
+<form action="#" method="post">
+    <button type="submit" class="btn btn-success">Supervised Learning</button>
+    <button type="submit" class="btn btn-primary">UnSupervised Learning</button>
+    <button type="submit" class="btn btn-warning">Reinforcement Learning</button>
+</form>
+
+{% endblock %}
