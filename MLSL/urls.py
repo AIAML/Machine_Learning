@@ -20,4 +20,5 @@ from Pages import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.home_view, name='home'),
+    path('supervisedlearning/', views.supervisedlearning_view, ''),
 ]
